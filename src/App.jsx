@@ -4,6 +4,7 @@ import ProgressBar from "./ProgressBar";
 import Navbar from "./Navbar";
 import AddTaskForm from "./AddTaskForm";
 import Profile from "./Profile";
+import Chat from "./Chat";
 import "./App.css";
 
 function App() {
@@ -164,6 +165,8 @@ function App() {
                 <ProgressBar initialProgress={50} />
               </>
             )}
+
+            <Chat />
           </main>
         </>
       )}
